@@ -12,5 +12,5 @@ type Snack {
 type Mutation {
     newSnack(name: String!, amount: Float!) : Snack!
     deleteSnack(id: ID!) : Boolean
-    updatedSnacK(id: ID!, amount: Float!) : Snack!
+    updateSnack(id:ID!, amount: Float!) : Snack!
 }

@@ -9,5 +9,5 @@ type Review {
 }
 
 extend type Mutation {
-    newReview(snackId: ID!, rating: Int, text: String!) : Review!
+    newReview(snackId: ID!, rating: Int, text:String!) : Review!
 }

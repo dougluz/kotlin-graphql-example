@@ -1,4 +1,4 @@
-package entity
+package com.example.kotlingraphql.entity
 
 import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document
 @Document(collection = "snack")
 data class Snack(
         var name: String,
-        var amount: Double
+        var amount: Float
 ) {
     @Id
     var id: String = ""
